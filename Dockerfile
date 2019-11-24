@@ -4,7 +4,7 @@
 FROM amd64/ubuntu:latest
 MAINTAINER Konstantin Begun
 
-ARG GNU_ARM_URL=https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2
+ARG GNU_ARM_URL=https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2019q3/RC1.1/gcc-arm-none-eabi-8-2019-q3-update-linux.tar.bz2
 ARG ARM_PACK_URL=https://github.com/ARM-software/CMSIS_5/releases/download/5.6.0/ARM.CMSIS.5.6.0.pack
 ARG ATMEL_PACK_URL=http://packs.download.atmel.com/Atmel.SAMD21_DFP.1.3.395.atpack
 ARG NRF_PACK_URL=https://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.15.2.pack
